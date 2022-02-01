@@ -32,7 +32,7 @@ public class MyStepdefs extends testBase{
         TaskSix.clickTheLoginButton();
     }
 
-    @Then("I should see a defitine link")
+    @Then("I should see a definite link")
     public void iShouldSeeADefitineLink() {
         TaskSix.checkIfTheLinkAppeared();
 
