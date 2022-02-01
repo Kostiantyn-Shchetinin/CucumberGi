@@ -16,6 +16,5 @@ public class Main extends BasePage {
 
     public void chooseTask(String taskNumber){
         driver.findElement(By.xpath("//h2 [text() = 'Zadanie "+taskNumber+"']")).click();
-
     }
 }
